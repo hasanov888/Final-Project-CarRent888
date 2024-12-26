@@ -41,7 +41,7 @@ const CarDetails = () => {
                       <i className="ri-star-s-fill"></i>
                       <i className="ri-star-s-fill"></i>
                     </span>
-                    ({singleCarItem.rating} ratings)
+                    ({singleCarItem.rating} reytinqlər)
                   </span>
                 </div>
 
