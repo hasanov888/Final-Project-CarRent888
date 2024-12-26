@@ -7,7 +7,7 @@ import carData from "../../assets/data/carData"
 const navLinks = [
   {
     path: "/home",
-    display: "Ana Səyfə",
+    display: "Ana Səhifə",
   },
   {
     path: "/about",
