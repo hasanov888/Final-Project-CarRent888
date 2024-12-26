@@ -50,35 +50,33 @@ const BlogDetails = () => {
               </div>
 
               <div className="comment__list mt-5">
-                <h4 className="mb-5">3 Comments</h4>
+                <h4 className="mb-5">3 Şərh</h4>
 
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">David Visa</h6>
-                    <p className="section__description mb-0">14 July, 2022</p>
+                    <h6 className=" fw-bold">Nuran</h6>
+                    <p className="section__description mb-0">14 Iyul, 2022</p>
                     <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                    "Bu xidmətlə tanış olmaq çox xoş oldu! Vahid müştəri dəstək xidmətindən çox razı qaldım, maşının təmizliyi və texniki vəziyyəti mükəmməl idi. Mənim üçün vacib olan əsas amil, zamanında və düzgün maşının təhvil verilməsi idi və Rent a Car şirkəti bu işin öhdəsindən çox yaxşı gəldi. Həmçinin, qiymətlər çox münasib idi və əlavə gizli ödənişlər yox idi, bu da çox müsbət cəhət oldu. Gələcəkdə yenə bu xidmətdən istifadə edəcəyəm və dostlarıma da tövsiyə edəcəyəm. Tezliklə yenə görüşərik!"
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
-                      <i class="ri-reply-line"></i> Replay
+                      <i class="ri-reply-line"></i> Təkrar Zəng
                     </span>
                   </div>
                 </div>
 
-                {/* =============== comment form ============ */}
+                {}
                 <div className="leave__comment-form mt-5">
-                  <h4>Leave a Comment</h4>
+                  <h4>Şərh yazın</h4>
                   <p className="section__description">
-                    You must sign-in to make or comment a post
+                  Post yaratmaq və ya şərh etmək üçün daxil olmalısınız
                   </p>
 
                   <Form>
                     <FormGroup className=" d-flex gap-3">
-                      <Input type="text" placeholder="Full name" />
+                      <Input type="text" placeholder="Ad"/>
                       <Input type="email" placeholder="Email" />
                     </FormGroup>
 
@@ -86,12 +84,12 @@ const BlogDetails = () => {
                       <textarea
                         rows="5"
                         className="w-100 py-2 px-3"
-                        placeholder="Comment..."
+                        placeholder="Şərh..."
                       ></textarea>
                     </FormGroup>
 
                     <button className="btn comment__btn mt-3">
-                      Post a Comment
+                      Şərh yazın
                     </button>
                   </Form>
                 </div>
@@ -100,7 +98,7 @@ const BlogDetails = () => {
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Recent Posts</h5>
+                <h5 className=" fw-bold">Son Mesajlar</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>

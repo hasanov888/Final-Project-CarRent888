@@ -49,7 +49,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      {/* ============ header top ============ */}
+      {}
       <div className="header__top">
         <Container>
           <Row>
@@ -77,7 +77,7 @@ const Header = () => {
         </Container>
       </div>
 
-      {/* =============== header middle =========== */}
+      {}
       <div className="header__middle">
         <Container>
           <Row>
@@ -129,7 +129,7 @@ const Header = () => {
         </Container>
       </div>
 
-      {/* ========== main navigation =========== */}
+      {}
       <div className="main__navbar">
         <Container>
           <div className="navigation__wrapper d-flex align-items-center justify-content-between">
@@ -181,7 +181,7 @@ const Header = () => {
                       ))
                     ) : (
                       <div className="search__box-result-row">
-                        <span>No result</span>
+                        <span>Nəticə yoxdur</span>
                       </div>
                     )
                   ) : (
